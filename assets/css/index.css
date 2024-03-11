@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+/* ESTILIZAÇÃO ROOT */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+
+/* ESTILIZAÇÃO DO HEADER */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px 0px 16px;
+}
+
+header img {
+    height: 72px;
+}
+
+header nav.header_navegation {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+header nav.header_navegation a {
+    color: #FFF2E7;
+    letter-spacing: 0.5px;
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+/* ESTILIZAÇÃO DO MAIN */
+main {
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+/* MAIN - SECTION01: TÍTULO, BOTÃO E IMAGEM */
+main section.section01 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main section.section01 .section_about {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+main section.section01 .section_about h1 {
+    color: #FFF2E7;
+    font-size: 56px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main section.section01 .section_about h2 {
+    color: #ECD6C4;
+    font-size: 24px;
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main section.section01 .section_about button {
+    height: 60px;
+    width: 180px;
+    background-color: #ECD6C4;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    color: #2F2325;
+    font-size: 20px;
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main section.section01 .section_about button:hover {
+    background-color: #E1BFA3;
+}
+
+main section img {
+    height: 460px;
+}
+
+/* MAIN - SECTION02: DESCRIÇÃO */
+main section.section02 {
+    margin-top: 48px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+}
+
+main section.section02 h3{
+    border-top: 0.4px solid rgba(255, 242, 231, 1);
+    padding-top: 48px;
+    padding-bottom: 8px;
+    color: #FFF2E7 ;
+    font-family: Righteous;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+main section.section02 p {
+    color: #ECD6C4;
+    font-family: Sarala;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+main section.section02 p span {
+    font-weight: 700;
+}
+
+
+/* ESTILIZAÇÃO DO FOOTER */
+
+footer {
+    padding: 32px;
+    border-top: 0.4px solid rgba(255, 242, 231, 1);
+
+}
+
+footer img {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
